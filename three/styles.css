@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    color: aliceblue;
+}
+
+.container {
+    margin: 0.5vh;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #51dbf3;
+    margin: 2px;
+    flex-grow: 0.5;
+    text-align: center;
+}
+.body {
+    flex-grow: 10;
+    display: flex;
+
+}
+.left-container {
+    flex-grow: 0.35;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #c99bef;
+    margin: 2px;
+    flex-grow: 0.4;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #71b554;
+    margin: 2px;
+    flex-grow: 0.6;
+    text-align: center;
+}
+
+.right-container {
+    flex-grow: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    background-color: #dec33d;
+    margin: 2px;
+    flex-grow: 0.7;
+    text-align: center;
+}
+
+.extra-content {
+    background-color: #b1adb3;
+    margin: 2px;
+    flex-grow: 0.3;
+    text-align: center;
+}
+
+.related-items {
+    flex-grow: 2;
+    display: flex;
+}
+
+.related-images {
+    background-color: #186d09;
+    margin: 2px;
+    flex-grow: 2;
+    text-align: center;
+}
+
+.related-posts {
+    background-color: #e09bde;
+    margin: 2px;
+    flex-grow: 0.4;
+    text-align: center;
+}
+
+.footer {
+    background-color: #e59042;
+    margin: 2px;
+    flex-grow: 0.5;
+    text-align: center;
+}
